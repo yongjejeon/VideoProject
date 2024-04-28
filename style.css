@@ -1,0 +1,168 @@
+/* General Styles and Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav img {
+    height: 50px; 
+}
+
+/* Content Area Styling */
+#content {
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+#text h2{
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);    
+}
+#videoButton img {
+    height: 70px; 
+    width: auto; 
+    display: block; 
+    position: absolute; 
+    top: 70%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+/* Video Container Styles */
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1000px; 
+}
+
+.video-container video {
+    width: 100%; 
+    max-width: 1000px; 
+    height: auto; 
+}
+
+/* Button Styles */
+.video-container img {
+    position: absolute;
+    padding: 0; 
+    cursor: pointer;
+    width: 50px; 
+    height: auto; 
+}
+/* Restart Button Styling */
+#restartButton {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    height: 50px; 
+    width: 50px; 
+    cursor: pointer; 
+}
+
+
+/* Positioning for specific buttons */
+.left-button {
+    left: -100px;
+    bottom: height/2; 
+}
+
+.right-button {
+    right: -100px; 
+    bottom: height/2; 
+}
+
+/* Background image for index.html */
+body.index-page {
+    background-image: url('media/design.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto; 
+}
+body.video-page{
+    background-color: rgb(31, 31, 31);
+}
+
+body.contact-page{
+    background-color: rgb(31, 31, 31);
+}
+/* Contact Page Styling */
+.contact-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.contact-item {
+    margin: 50px; 
+    text-align: center;
+}
+
+.contact-item img {
+    width: 150px; 
+    height: auto; 
+}
+
+.contact-item p {
+    margin-top: 10px; 
+}
+
+
+.contact-item p {
+    color:white;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.contact-item {
+    margin: 50px; 
+    text-align: center;
+}
+
+.contact-item img {
+    width: 150px; 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.contact-item p {
+    margin-top: 10px; 
+}
+
+h1 {
+    color: white;
+}
+
+.contact-item p {
+    color: white;
+}
