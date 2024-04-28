@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interactive Video Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="video-page">
+    <nav>
+        <a href="index.html">
+            <img src="media/home.png" alt="Home">
+          </a>
+          <a href="video.html">
+            <img src="media/video-camera.png" alt="Video">
+          </a>
+          <a href="blooper.html">
+              <img src="media/bts.png" alt="Blooper">
+            </a>
+          <a href="contact.html">
+            <img src="media/email.png" alt="Contact">
+          </a>
+    </nav>
+<div class="video-container">
+    <img id="gotoV1Button" class="left-button" src="media/left.png" alt="Goto V1 (Bad Ending)" style="display:none;">
+    <img id="gotoV5Button" class="left-button" src="media/door.png" alt="Good Ending (goto V5)" style="display: none;">
+    <video id="myVideo" controls>
+        <source src="media/MAIN.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <img id="gotoV2Button" class="right-button" src="media/right.png" alt="Goto V2 (Good Ending)" style="display:none;">
+    <img id="gotoV6Button" class="right-button" src="media/table.png" alt="Bad Ending (goto V6)" style="display: none;">
+</div>
+<img id="restartButton" src="media/restart.png" alt="Restart Video" style="display: none; cursor: pointer;">
+
+<script src="script.js"></script>
+</body>
+</html>
